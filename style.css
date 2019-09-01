@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins", "oswald", sans-serif;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+p {
+  font-family: "Poppins";
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100vw;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #000000, #000000);
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 20px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  text-align: left;
+  transition: 500ms;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.nav-link {
+  transition: 0.5s;
+}
+
+.navbar-nav li a:hover {
+  transform: translateX(-10px);
+  font-weight: bold;
+  background-color: rgba(56, 192, 255, 0.657);
+  border-radius: 10px;
+}
+
+#banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(" ");
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: inherit;
+  margin: 0;
+  position: relative;
+}
+
+.tittle {
+  font-family: "Oswald", "dosis", sans-serif;
+  display: block;
+  font-size: 6rem;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 800;
+  user-select: none;
+  letter-spacing: 10px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, rgb(141, 141, 141) rgb(255, 255, 255));
+  border-radius: 12rem;
+}
+
+.hero-img {
+  width: 50%;
+  right: 0;
+  bottom: 0;
+  padding: 80px 0;
+  margin-top: 60px;
+  overflow: hidden;
+  color: #000, 0.9;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+}
+
+.logo {
+  width: 100vw;
+  margin: 20px;
+}
+
+.typist-container {
+  margin-top: 5rem;
+}
+
+.typist {
+  color: rgb(0, 0, 0);
+  font-size: 4.2rem;
+  font-family: "Oswald", sans-serif;
+  display: none;
+  font-weight: 600;
+  user-select: none;
+  border-right: 2px solid #fff;
+  padding-right: 6px;
+  -webkit-animation: example 1s infinite;
+  animation: example 1s infinite;
+  position: absolute;
+}
+
+@keyframes example {
+  0% {
+    border-right-color: transparent;
+  }
+
+  50% {
+    border-right-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+.container {
+  width: 100vw;
+}
+
+#about {
+  padding: 80px 0;
+  background-color: rgb(248, 227, 36);
+}
+
+.about {
+  padding: 20px;
+}
+
+#zdrowie {
+  padding: 80px 0;
+}
+
+.zdrowie-img {
+  width: 300px;
+  height: 300px;
+}
+
+.zdrowie {
+  padding: 20px;
+}
+
+.zdrowie h2 {
+  padding: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about h2 {
+  padding: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+.products h2 {
+  padding: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tittle-container {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #000000;
+  user-select: none;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: "Roboto+Mono&display=swap", sans-serif;
+}
+
+#products {
+  background-color: rgb(248, 227, 36);
+  padding: 80px 0;
+  margin: 50px 0;
+}
+
+.products {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#products ul li {
+  margin: 10px 0;
+}
+
+#kontakt {
+  padding: 80px 0;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 80px;
+}
+
+.products-img {
+  width: 300px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.social-media {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-media i {
+  font-size: 80px !important;
+  transition: 0.5s;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.social-media a:hover i {
+  transform: translateY(-10px);
+}
+
+footer {
+  background-image: linear-gradient(to left, #222222, #030202d3);
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  height: 100%;
+  padding: 20px 0 0 0;
+  width: 100vw;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes animate {
+  0% {
+    filter: blur(0);
+  }
+
+  40% {
+    filter: blur(20px);
+  }
+
+  80% {
+    filter: blur(0px);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-img {
+    position: absolute;
+    width: 20rem;
+    right: 0;
+    bottom: 0;
+    padding: 80px 0;
+    margin-top: 40px;
+  }
+
+  .tittle {
+    font-family: "Oswald", "dosis", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 10px;
+    user-select: none;
+    letter-spacing: 1.8px;
+    color: rgb(0, 0, 0);
+  }
+}
